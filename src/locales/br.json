@@ -1,0 +1,47 @@
+{
+  "home": "Início",
+  "projects": "Projetos",
+
+  "hello": "Olá!",
+  "welcome1": "Bem-vindo ao meu portfólio! Meu nome é ",
+  "name": "Alex Messias Alle",
+  "welcome2": ", e estou animado para compartilhar um pouco sobre quem sou e o que faço.",
+  "passion": "Sou um profissional apaixonado em programação, com uma formação sólida e experiência em ",
+  "fullstack":"fullstack.",
+  "interest": "Meu interesse em desenvolvimento começou durante a adolescência. Desde então, tenho dedicado meu tempo e energia para aprimorar minhas habilidades e explorar novas oportunidades nesse campo fascinante.",
+  "highlights": "Tive a oportunidade de trabalhar em diversos projetos interessantes e desafiadores. Um dos destaques da minha carreira foi trabalhar em uma empresa que fornece sistemas de gerenciamento de imobiliárias. Esse projeto não apenas me permitiu aplicar meu conhecimento e habilidades, me proporcionou a oportunidade de colaborar com uma equipe talentosa e diversificada.",
+  "learning1": "Além disso, estou constantemente buscando aprender e crescer profissionalmente. Estou sempre atualizado sobre as tendências e desenvolvimentos mais recentes em ",
+  "tecnologies": "JavaScript, TypeScript, Vue.js, C#, Web APIs RestFull, ",
+  "learning2": "entre outras. Estou comprometido em continuar expandindo meu conhecimento e habilidades para me manter relevante e eficaz.",
+  "portfolio": "Este portfólio é uma amostra do meu trabalho e das minhas realizações até o momento. Espero que você encontre aqui uma visão clara do meu estilo de trabalho, minhas habilidades e o valor que posso agregar à sua equipe ou projeto.",
+  "thanks": "Obrigado por visitar meu portfólio, e estou ansioso para a oportunidade de colaborar e criar juntos no futuro!",
+
+  "project0": "Locadora de veículos (Frontend)",
+  "project1": "Locadora de veículos (Backend)",
+  "project2": "Jogo de xadrez (console)",
+  "project3": "Catálogo de produtos (Servidor)",
+
+  "show": "Ver",
+  "project": "Projetos",
+  "repository": "Repositório",
+  "back": "Voltar",
+  "send": "Enviar",
+  "sendEmail": "Enviar email",
+  "copyEmail": "Copiar email",
+  "copiedEmail": "Email copiado!",
+  "close": "Fechar",
+
+  "name0": "Locadora de veículos",
+  "name1": "Locadora de veículos",
+  "name2": "Jogo de xarez",
+  "name3": "Catálogo de produtos",
+
+  "info0": "O sistema contém cadastros, reservas e dashboard.",
+  "info1": "CRUD do fron-end com o banco de dados MySQL.",
+  "info2": "O jogo é feito todo em POO no aplicatico do console.",
+  "info3": "CRUD de um sistema de mini mercado.",
+
+  "tecnologiesUsed": "Tecnologias usadas:",
+
+  "dialogCard": "Claque na imagem para maximizar"
+}

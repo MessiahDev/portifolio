@@ -1,0 +1,42 @@
+{
+  "home": "Home",
+  "projects": "Projects",
+  
+  "hello": "Hello!",
+  "welcome1": "Welcome to my portfolio! My name is ",
+  "name": "Alex Messias Alle",
+  "welcome2": ", and I'm excited to share a bit about who I am and what I do.",
+  "passion": "I'm a passionate professional in programming, with a solid background and experience in ",
+  "fullstack": "fullstack.",
+  "interest": "My interest in development began during my teenage years. Since then, I have devoted my time and energy to honing my skills and exploring new opportunities in this fascinating field.",
+  "highlights": "I've had the opportunity to work on various interesting and challenging projects. One highlight of my career was working for a company that provides real estate management systems. This project not only allowed me to apply my knowledge and skills but also provided me with the opportunity to collaborate with a talented and diverse team.",
+  "learning1": "Additionally, I'm constantly seeking to learn and grow professionally. I stay updated on the latest trends and developments in ",
+  "tecnologies": "JavaScript, TypeScript, Vue.js, C#, Web APIs RestFull, ",
+  "learning2": "among others. I'm committed to continuously expanding my knowledge and skills to remain relevant and effective.",
+  "portfolio": "This portfolio is a sample of my work and achievements so far. I hope you find here a clear insight into my work style, my skills, and the value I can add to your team or project.",
+  "thanks": "Thank you for visiting my portfolio, and I look forward to the opportunity to collaborate and create together in the future!",
+
+  "show": "Show",
+  "project": "Projects",
+  "repository": "Repository",
+  "back": "Back",
+  "send": "Send",
+  "sendEmail": "Send email",
+  "copyEmail": "Copy email",
+  "copiedEmail": "Copied email!",
+  "close": "Close",
+
+  "name0": "Car Rental",
+  "name1": "Car Rental",
+  "name2": "Chess Game",
+  "name3": "Product Catalog",
+
+  "info0": "The system contains registrations, reservations, and a dashboard.",
+  "info1": "CRUD from the front-end with the MySQL database.",
+  "info2": "The game is entirely made in OOP in the console application.",
+  "info3": "CRUD for a mini-market system.",
+
+  "tecnologiesUsed":"Technologies used:",
+
+  "dialogCard": "Click on image to maximize"
+}
