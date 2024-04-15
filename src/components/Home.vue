@@ -199,11 +199,11 @@
               </v-toolbar>
               <v-card-text>
                 <v-form action="https://formsubmit.co/285c194ae6d9f3e8327bae53ad60ff3e" method="POST">
-                  <v-text-field class="pt-6" dense outlined v-model="formData.name" label="Seu nome" name="name"
+                  <v-text-field class="pt-6" dense outlined v-model="formData.name" :label="$t('yourName')" name="name"
                     required></v-text-field>
-                  <v-text-field dense outlined v-model="formData.email" label="Seu email" name="email" type="email"
+                  <v-text-field dense outlined v-model="formData.email" :label="$t('yourEmail')" name="email" type="email"
                     required></v-text-field>
-                  <v-textarea outlined v-model="formData.message" label="Menssagem" name="message"
+                  <v-textarea outlined v-model="formData.message" :label="$t('message')" name="message"
                     type="message"></v-textarea>
                   <input type="hidden" name="_next" value="https://portifolioalexalle.vercel.app/">
                   <input type="hidden" name="_captcha" value="false">
@@ -270,7 +270,6 @@ export default Vue.extend({
       email: 'alex.alle192@gmail.com',
       snackbar1: false,
       snackbar2: false,
-      snackbar3: false,
       timeout: 4000,
       emailButtom: false,
       showProfile: false,
@@ -352,23 +351,16 @@ export default Vue.extend({
           });
         }
       });
-
     });
 
     window.addEventListener("scroll", this.handleScroll);
-    document.addEventListener('mousemove', this.handleMouseMove);
   },
 
   destroyed() {
     window.removeEventListener("scroll", this.handleScroll);
-    document.removeEventListener('mousemove', this.handleMouseMove);
   },
 
   methods: {
-    // redirectToLink(link) {
-    //   window.open(link, '_blank');
-    // },
-
     langVCards(index, item) {
       if (item === 1) return this.$t(`name${index}`);
       if (item === 2) return this.$t(`info${index}`);
@@ -412,10 +404,6 @@ export default Vue.extend({
 
     snackbarSentEmail() {
       this.snackbar2 = true;
-    },
-
-    snackbarSucess() {
-      this.snackbar3 = true;
     },
 
     navigate() {
@@ -504,10 +492,6 @@ export default Vue.extend({
 .full-dialog {
   height: 80vh;
   margin: 0;
-}
-
-.transition-swing {
-  transition: transform 1.5s ease-in-out;
 }
 
 .theme-border {
