@@ -205,7 +205,7 @@
                     required></v-text-field>
                   <v-textarea outlined v-model="formData.message" label="Menssagem" name="message"
                     type="message"></v-textarea>
-                  <input type="hidden" name="_next" value="http://localhost:8080/">
+                  <input type="hidden" name="_next" value="https://portifolioalexalle.vercel.app/">
                   <input type="hidden" name="_captcha" value="false">
                   <v-btn type="submit" color="orange" @click="snackbarSentEmail">{{ $t('send') }}</v-btn>
                 </v-form>
