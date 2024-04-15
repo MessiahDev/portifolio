@@ -149,7 +149,7 @@
       </v-row>
 
       <div class="text-center">
-        <v-dialog v-model="dialog" persistent width="60vw" transition="dialog-bottom-transition" class="full-dialog">
+        <v-dialog v-model="dialog" width="60vw" transition="dialog-bottom-transition" class="full-dialog">
           <v-card>
             <v-card-title class="text-h5" :color="darkMode == true ? '#EFF2FB' : '#121212'">
               {{ $t('dialogCard') }}
