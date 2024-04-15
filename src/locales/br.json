@@ -27,9 +27,13 @@
   "back": "Voltar",
   "send": "Enviar",
   "sendEmail": "Enviar email",
+  "alertEmail": "Espere até a janela fechar para o email ser enviado!",
+  "sentEmail": "Email enviado com sucesso!",
   "copyEmail": "Copiar email",
   "copiedEmail": "Email copiado!",
   "close": "Fechar",
+  "previous": "Anterior",
+  "next": "Próximo",
 
   "name0": "Locadora de veículos",
   "name1": "Locadora de veículos",
@@ -43,5 +47,18 @@
 
   "tecnologiesUsed": "Tecnologias usadas:",
 
-  "dialogCard": "Claque na imagem para maximizar"
+  "dialogCard": "Claque na imagem para maximizar",
+
+  "developed": "Desenvolvido por Alex Messias Alle",
+
+  "accessRepository": "Você pode acessar o repositório deste portfólio clicando abaixo!",
+  "here": "AQUI",
+
+  "skills": "Habilidades",
+
+  "ability0": "Tenho mais de um ano de experiência dedicada ao aprendizado e prática do TypeScript. Durante 11 meses, apliquei essa linguagem em um ambiente profissional, trabalhando para uma empresa especializada em soluções de gerenciamento para loteadoras. Nesse período, fui responsável por desenvolver e manter uma variedade de funcionalidades utilizando TypeScript, desde a manipulação de dados até a implementação de lógica de negócios complexa. Além disso, participei ativamente de revisões de código e colaboração em equipe, o que contribuiu significativamente para o meu crescimento profissional. Embora ainda esteja aprimorando minhas habilidades, já possuo um entendimento sólido da linguagem e suas aplicações, e estou sempre buscando aprender mais através de cursos online, documentação oficial e projetos pessoais.",
+  "ability1": "JavaScript foi uma das primeiras linguagens front-end que estudei, e desde então tenho me aprofundado nela continuamente. Este portfólio é um exemplo disso, já que a linguagem é utilizada aqui como script. Dedico tempo significativo a projetos de prática para solidificar meu domínio em JavaScript, explorando conceitos avançados como programação assíncrona, manipulação de DOM e padrões de design. Além disso, mantenho-me atualizado com as últimas tendências e recursos da linguagem, participando de comunidades online e conferências. Meu objetivo é não apenas dominar os fundamentos, mas também explorar as capacidades mais avançadas da linguagem para criar aplicações web dinâmicas e eficientes.",
+  "ability2": "Minha paixão pelo desenvolvimento foi intensificada ao trabalhar com o framework Vue.js na SCAE, onde estive envolvido com a gestão de loteadoras, conforme mencionado anteriormente. Naquela experiência, integrei o Vue.js com o framework Vuetify para criar um front-end coeso e eficiente. Esta colaboração me permitiu explorar a arquitetura de componentes do Vue.js e aproveitar os recursos poderosos do Vuetify, como seus componentes pré-construídos e sistema de grid responsivo. Além disso, participei ativamente do desenvolvimento de recursos personalizados e da resolução de problemas complexos, o que me proporcionou uma compreensão profunda do ecossistema Vue.js. Este portfólio é um testemunho do meu domínio dessas tecnologias e da minha capacidade de criar interfaces web elegantes e funcionais.",
+  "ability3": "Faço uso extensivo do plugin Vuetify para agilizar o processo de estilização das minhas interfaces. Além de sua capacidade de melhorar significativamente a estética dos sites, o Vuetify também simplifica o desenvolvimento, permitindo-me economizar tempo e código. Esta ferramenta se tornou indispensável no meu fluxo de trabalho, pois me permite prototipar rapidamente designs e garantir consistência visual em toda a aplicação. Além disso, estou constantemente explorando as possibilidades de personalização oferecidas pelo Vuetify, adaptando seus componentes padrão para atender às necessidades específicas de cada projeto. Com uma compreensão profunda do Vuetify, posso criar interfaces web impressionantes que combinam funcionalidade e estética de forma harmoniosa.",
+  "ability4": "C# foi minha primeira introdução séria à programação e é uma linguagem na qual dediquei considerável tempo e esforço para me aprofundar. Utilizo o .NET Framework Core para desenvolver APIs RESTful, que atuam como a ponte entre o front-end e o banco de dados. Estas APIs fornecem endpoints essenciais para a comunicação eficiente entre os diferentes componentes de uma aplicação web, permitindo a troca de dados de forma segura e eficaz. Além disso, estou familiarizado com os princípios de design de software e padrões de arquitetura, como MVC (Model-View-Controller) e injeção de dependência, que são fundamentais para o desenvolvimento de aplicações robustas e escaláveis em C#. Estou sempre buscando aprimorar minhas habilidades nesta linguagem, explorando novas funcionalidades e melhores práticas, e aplicando-as em projetos práticos para consolidar meu conhecimento."
 }

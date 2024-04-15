@@ -22,9 +22,13 @@
   "back": "Back",
   "send": "Send",
   "sendEmail": "Send email",
+  "alertEmail": "Wait until the window closes for the email to be sent!",
+  "sentEmail": "Email successfully sent!",
   "copyEmail": "Copy email",
   "copiedEmail": "Copied email!",
   "close": "Close",
+  "previous": "Previous",
+  "next": "Next",
 
   "name0": "Car Rental",
   "name1": "Car Rental",
@@ -38,5 +42,18 @@
 
   "tecnologiesUsed":"Technologies used:",
 
-  "dialogCard": "Click on image to maximize"
+  "dialogCard": "Click on image to maximize",
+
+  "developed": "Developed by Alex Messias Alle",
+
+  "accessRepository": "You can access this portfolio's repository by clicking below!",
+  "here": "HERE",
+
+  "skills": "Skills",
+
+  "ability0": "I have over a year of dedicated experience in learning and practicing TypeScript. For 11 months, I applied this language in a professional environment, working for a company specialized in management solutions for real estate developers. During this period, I was responsible for developing and maintaining a variety of features using TypeScript, from data manipulation to implementing complex business logic. Additionally, I actively participated in code reviews and team collaboration, which significantly contributed to my professional growth. Although I am still refining my skills, I already possess a solid understanding of the language and its applications, and I am always seeking to learn more through online courses, official documentation, and personal projects.",
+  "ability1": "JavaScript was one of the first front-end languages I studied, and since then, I have continuously deepened my knowledge of it. This portfolio is an example of that, as the language is used here as a script. I dedicate significant time to practice projects to solidify my mastery of JavaScript, exploring advanced concepts such as asynchronous programming, DOM manipulation, and design patterns. Additionally, I stay updated with the latest trends and features of the language by participating in online communities and conferences. My goal is not only to master the fundamentals but also to explore the language's more advanced capabilities to create dynamic and efficient web applications.",
+  "ability2": "My passion for development was intensified while working with the Vue.js framework at SCAE, where I was involved in real estate developer management, as mentioned earlier. In that experience, I integrated Vue.js with the Vuetify framework to create a cohesive and efficient front-end. This collaboration allowed me to explore Vue.js's component architecture and leverage Vuetify's powerful features, such as its pre-built components and responsive grid system. Additionally, I actively participated in developing custom features and solving complex problems, which provided me with a deep understanding of the Vue.js ecosystem. This portfolio is a testament to my mastery of these technologies and my ability to create elegant and functional web interfaces.",
+  "ability3": "I make extensive use of the Vuetify plugin to streamline the styling process of my interfaces. In addition to its ability to significantly enhance the aesthetics of websites, Vuetify also simplifies development, allowing me to save time and code. This tool has become indispensable in my workflow, as it enables me to quickly prototype designs and ensure visual consistency throughout the application. Furthermore, I am constantly exploring the customization possibilities offered by Vuetify, adapting its standard components to meet the specific needs of each project. With a deep understanding of Vuetify, I can create impressive web interfaces that seamlessly combine functionality and aesthetics.",
+  "ability4": "C# was my first serious introduction to programming and is a language in which I have devoted considerable time and effort to delve into. I use the .NET Core Framework to develop RESTful APIs, which act as the bridge between the front-end and the database. These APIs provide essential endpoints for efficient communication between the different components of a web application, enabling the exchange of data securely and effectively. Additionally, I am familiar with software design principles and architecture patterns, such as MVC (Model-View-Controller) and dependency injection, which are fundamental to the development of robust and scalable applications in C#. I am always seeking to improve my skills in this language, exploring new features and best practices, and applying them in practical projects to consolidate my knowledge."
 }

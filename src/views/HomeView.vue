@@ -1,21 +1,19 @@
 <template>
-  <dashboard />
+  <home />
 </template>
 
 <script>
-import Dashboard from '@/components/Home.vue';
+import Home from '@/components/Home.vue';
 import Vue from 'vue';
 
-  export default Vue.extend({
-    name: 'home',
+export default Vue.extend({
+  name: 'home',
 
-    components: {
-      Dashboard,
-    }
-    
-  });
+  components: {
+    Home,
+  }
+
+});
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

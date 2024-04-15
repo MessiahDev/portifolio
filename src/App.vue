@@ -1,41 +1,20 @@
 <template>
   <v-app id="inspire">
-    <v-app-bar
-      app
-      :color="darkMode ? '#121212' : '#e2e8f0'"
-      flat
-      elevation="2"
-    >
-    <v-spacer></v-spacer>
-      <v-tabs
-        class=""
-        :color="darkMode ? '#e2e8f0' : '#121212'"
-        flat
-      >
+    <v-app-bar app :color="darkMode ? '#121212' : '#e2e8f0'" flat elevation="2">
+      <v-spacer></v-spacer>
+      <v-tabs class="" :color="darkMode ? '#e2e8f0' : '#121212'" flat>
         <v-tab style="padding: 0%;">
-          <v-menu
-            bottom
-            offset-y
-            style="height: 100%; width: 100%;"
-          >
+          <v-menu bottom offset-y style="height: 100%; width: 100%;">
             <template v-slot:activator="{ on }">
-              <v-btn
-                v-on="on"
-                color="transparent"
-                elevation="0"
-                style="height: 100%; width: 100%;"
-                class="my-0"
-              >
-              Menu
+              <v-btn v-on="on" color="transparent" elevation="0" style="height: 100%; width: 100%;" class="my-0">
+                Menu
               </v-btn>
             </template>
 
-            <v-list
-                v-for="(item, index) in items"
-                :key="index"
-                class="my-0 py-0"
-              >
-              <v-btn color="transparent" elevation="0" class="py-3 my-0" style="height: 100%;padding-right: 60%;padding-left: 5%;" @click="navigate(`${item.id}`)">{{ menuName(item.id) }}</v-btn>
+            <v-list v-for="(item, index) in items" :key="index" class="my-0 py-0 pr-12">
+              <v-btn color="transparent" elevation="0" class="py-3 my-0"
+                style="height: 100%;padding-right: 100%;padding-left: 5%;" @click="navigate(`${item.id}`)">{{
+                  menuName(item.id) }}</v-btn>
             </v-list>
           </v-menu>
         </v-tab>
@@ -47,12 +26,7 @@
       <v-col>
         <v-tooltip bottom>
           <template v-slot:activator="{ on, attrs }">
-            <v-btn
-            v-bind="attrs"
-            v-on="on"
-            color="transparent"
-            elevation="0"
-            @click="translateToEnglish()">
+            <v-btn v-bind="attrs" v-on="on" color="transparent" elevation="0" @click="translateToEnglish()">
               {{ translated ? 'BR' : 'US' }}
             </v-btn>
           </template>
@@ -60,17 +34,12 @@
         </v-tooltip>
       </v-col>
 
-      <v-switch
-        class="pt-5"
-        inset
-        :color="darkMode ? 'orange' : '#081422'"
-        @click="toggleTheme()"
-        :prepend-icon="darkMode ? 'mdi-white-balance-sunny' : 'mdi-weather-night'"
-      ></v-switch>
+      <v-switch class="pt-5" inset :color="darkMode ? 'orange' : '#081422'" @click="toggleTheme()"
+        :prepend-icon="darkMode ? 'mdi-white-balance-sunny' : 'mdi-weather-night'"></v-switch>
     </v-app-bar>
 
     <v-main :class="darkMode ? 'theme--dark' : 'theme--light'">
-      <Home :darkMode="darkMode"/>
+      <Home :darkMode="darkMode" />
     </v-main>
   </v-app>
 </template>
@@ -90,7 +59,8 @@ export default Vue.extend({
 
     items: [
       { id: 1 },
-      { id: 2 }
+      { id: 2 },
+      { id: 3 }
     ]
 
   }),
@@ -133,14 +103,23 @@ export default Vue.extend({
             block: 'start'
           });
         }
+      } else if (tabIndex == '3') {
+        const targetElement = document.getElementById('3');
+        if (targetElement) {
+          targetElement.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
       }
     },
 
     menuName(index) {
       if (index === 1) return this.$t('home');
       if (index === 2) return this.$t('projects');
+      if (index === 3) return this.$t('skills');
     },
-    
+
     toggleTheme() {
       this.darkMode = !this.darkMode;
       this.$vuetify.theme.dark = this.darkMode;
