@@ -497,7 +497,7 @@ export default Vue.extend({
 .theme-border {
   border: 5px;
   border-style: solid;
-  border-color: orange;
+  border-color: #121212;
   transition: 0.9s;
 }
 
