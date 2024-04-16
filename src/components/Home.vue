@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container fluid id="1">
-      <v-row class="profile">
+      <v-row :class="{ 'comming-animation': showProfile }" @change="showProfile">
         <v-col cols="12" md="4" class="d-flex flex-column align-center py-16">
           <v-avatar size="250" class="theme-border" :class="{ 'falling-animation': showProfile }" @change="showProfile">
             <v-img :src="require('@/assets/img/alex.jpg')" />
@@ -456,15 +456,21 @@ export default Vue.extend({
   width: 80vw;
 }
 
-.profile {
+.comming-animation {
   border: 1px solid #DCDCDC;
   border-radius: 40px;
   margin-top: 7rem;
-  transition: box-shadow 0.9s;
+  animation: comming 2s ease-in-out forwards;
 }
 
-.profile:hover {
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+@keyframes comming {
+  100% {
+    box-shadow: 0px 16px 50px 23px rgba(0,0,0,0.2);
+  }
+
+  0% {
+    transform: 0px 16px 50px 23px rgba(0,0,0,0.2);
+  }
 }
 
 .divider {
