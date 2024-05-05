@@ -285,7 +285,7 @@ export default Vue.extend({
       },
 
       items: [
-        { name: 1, srcs: [0, 1, 2, 3, 4, 5, 6, 7, 8], type: 'Front-end', info: 2, tec: 'TypeScript, JavaScript e Vue.js', link: 'https://github.com/MessiahDev/Car-Rental-Frontend', site: 'https://carrental-demo.vercel.app/reservations' },
+        { name: 1, srcs: [0, 1, 2, 3, 4, 5, 6, 7, 8], type: 'Front-end', info: 2, tec: 'TypeScript, JavaScript e Vue.js', link: 'https://github.com/MessiahDev/Car-Rental-Frontend', site: 'https://carrental-demo.vercel.app/' },
         { name: 1, srcs: [9, 10, 11], type: 'Back-end', info: 2, tec: 'C# e ASP.NET Core', link: 'https://github.com/MessiahDev/API_CarRental-Backend' },
         { name: 1, srcs: [12, 13, 14], type: 'Back-end', info: 2, tec: 'C# e Visual Studio (Console)', link: 'https://github.com/MessiahDev/Projeto-Jogo-de-Xadrez' },
         { name: 1, srcs: [15, 16], type: 'Back-end', info: 2, tec: 'C# e ASP.NET Core', link: 'https://github.com/MessiahDev/ApiCatalogo' }
