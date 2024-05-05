@@ -90,7 +90,7 @@
                   <span>{{ $t('repository') }}</span>
                 </v-tooltip>
                 <div class="mb-5 ml-1">
-                    <v-btn v-if="i === 0" color="orange" :href="item.site" target="_blank" outlined dense>{{ $t('visit') }}</v-btn>
+                    <v-btn v-if="i == 0" color="orange" :href="item.site" target="_blank" outlined dense>{{ $t('visit') }}</v-btn>
                 </div>
                 <div class="font-weight-light grey--text text-h6 mb-2">
                   {{ item.type }}
