@@ -295,7 +295,7 @@ export default Vue.extend({
         { link: 'https://www.linkedin.com/in/alex-alle/', icon: 'mdi-linkedin' },
         { link: 'https://github.com/MessiahDev', icon: 'mdi-github' },
         { link: '', icon: 'mdi-gmail' },
-        { link: 'https://wa.me/5521979167300', icon: 'mdi-whatsapp' },
+        { link: 'https://wa.me/5521998138903', icon: 'mdi-whatsapp' },
       ],
 
       images: [
