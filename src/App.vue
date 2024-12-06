@@ -1,8 +1,8 @@
 <template>
   <v-app id="inspire">
-    <v-app-bar app :color="darkMode ? '#e2e8f0' : '#121212'" flat elevation="2">
+    <v-app-bar app :color="darkMode ? '#121212' : '#e2e8f0'" flat elevation="2">
       <v-spacer></v-spacer>
-      <v-tabs class="" :color="darkMode ? '#121212' : '#e2e8f0'" flat>
+      <v-tabs class="" :color="darkMode ? '#e2e8f0' : '#121212'" flat>
         <v-tab style="padding: 0%;">
           <v-menu bottom offset-y style="height: 100%; width: 100%;">
             <template v-slot:activator="{ on }">
